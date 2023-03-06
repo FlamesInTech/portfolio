@@ -1,0 +1,60 @@
+*{
+    /* outline: 1px solid yellow; */
+}
+.main{
+    background-color: black;
+    height: 100vh;
+    overflow-y: auto;
+}
+nav a{
+    color: white;
+}
+.line{
+    height: 25px;
+    width: 10px;
+    background-color: rgb(14, 98, 115);
+}
+.projects{
+    background: rgba(255, 255, 255, 0.438);
+    padding-top: 1cm;
+    color: white;
+    font-weight: 600;
+}
+.projects > div{
+    display: flex;
+}
+.title{
+    text-align: center;
+}
+.site{
+    flex-direction: column;
+}
+.s1{
+    display: flex;
+    gap: 10px;
+}
+.sitename a{
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(2, 4, 39);
+}
+a{
+    color: rgb(2, 4, 39);
+}
+iframe{
+    height: 14cm;
+    width: 1024px;
+    border: 1px solid black;
+}
+.source button{
+    color: white;
+    width: 110px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+    background-color: rgb(14, 98, 115);
+}
+.source{
+    display: flex;
+    gap: 10px;
+}
