@@ -30,10 +30,34 @@
   }
   
 
-  
-  h1 {
+  h2{
     font-family:monospace;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) infinite alternate,
+      blink 800ms steps(13) infinite normal;
+    border-right: 5px solid rgb(100, 61, 136);
   }
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    from {
+      border-color: blue;
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+  /* h1 {
+    font-family:monospace;
+  } */
   
   @keyframes slide {
     0% {
@@ -175,6 +199,9 @@
     .navigate > div{
         height: 1cm;
         width: 2cm;
+    }
+    h2{
+    font-size: 20px;
     }
     .socials{
         display: flex;
